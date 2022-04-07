@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Allerta+Stencil|Source+Code+Pro:900");
+
+/* detail root variables */
+:root {
+  --font-serif: "Allerta Stencil", sans-serif;
+  --font-mono: "Source Code Pro", monospace;
+  --color-text: #efeee7;
+  --color-bg: #223458;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.table {
+  margin: 30px auto 0px auto;
+  padding: 50px;
+}
+
+.drawer-icon {
+  font-family: "Carter One", cursive;
+  display: flex;
+  font-size: larger;
+  align-items: center;
+}
+.drawer-name {
+  font-family: var(--font-serif);
+}
+
+.input {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 3rem;
+}
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+.homepage {
+  margin-left: 100px;
+  padding: 5rem;
+}
+.list {
+  padding: 30px 5px;
+}
+.list-item {
+  padding: 10px;
+}
